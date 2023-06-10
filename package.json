@@ -1,0 +1,80 @@
+{
+  "name": "graph-analyzer",
+  "version": "2.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.16",
+    "@mui/x-data-grid": "^6.0.0",
+    "@react-sigma/core": "^3.1.0",
+    "@react-sigma/layout-forceatlas2": "^3.1.0",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@types/sigmajs": "^1.0.28",
+    "@types/yup": "^0.32.0",
+    "buffer": "^6.0.3",
+    "chart.js": "^4.2.1",
+    "file-saver": "^2.0.5",
+    "formik": "^2.2.9",
+    "graphology": "^0.25.1",
+    "graphology-types": "^0.24.5",
+    "history": "^5.3.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.4.1",
+    "react-router-dom": "^6.4.3",
+    "react-sigma": "^1.2.35",
+    "sigma": "^2.4.0",
+    "typescript": "^4.9.3",
+    "web-vitals": "^3.1.0",
+    "yup": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start:micro": "export PORT=4000 && react-app-rewired start",
+    "build:micro": "react-app-rewired build",
+    "format": "prettier --write src/**/*.ts src/**/*.tsx",
+    "lint": "eslint src/**/*.ts src/**/*.tsx"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@rtk-query/codegen-openapi": "^1.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/file-saver": "^2.0.5",
+    "@types/jest": "^29.2.3",
+    "@types/react": "^18.0.25",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^27.1.6",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "generate-license-file": "^2.0.0",
+    "prettier": "^2.8.0",
+    "react-app-rewired": "^2.2.1",
+    "react-scripts": "^5.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
